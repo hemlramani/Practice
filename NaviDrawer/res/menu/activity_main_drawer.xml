@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/programming"
+            android:icon="@drawable/browser_24"
+            android:title="Programming Languages"/>
+        <item
+            android:id="@+id/website"
+            android:icon="@drawable/globe_24"
+            android:title="Web Buildings" />
+        <item
+            android:id="@+id/appdev"
+            android:icon="@drawable/smartphone_24"
+            android:title="App Development" />
+
+    </group>
+</menu>
