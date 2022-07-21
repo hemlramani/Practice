@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PIZZA  Rs. 150"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BURGER  Rs. 70"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SANDWICH  Rs. 50"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/chk4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRENCH FRIES  Rs. 120"
+        android:textStyle="bold"
+        />
+    <CheckBox
+        android:id="@+id/chk5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ICE-CREAM  Rs. 100"
+        android:textStyle="bold"
+        />
+
+    <Button
+
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:backgroundTint="#FF5722"/>
+
+
+
+
+
+</LinearLayout>
