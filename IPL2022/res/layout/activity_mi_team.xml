@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiTeam">
+
+    <TextView
+        android:id="@+id/ply1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="Rohit Sharma"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ply2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/ply1"
+        android:text="Ishan Kishan"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ply3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ply2"
+        android:text="Suryakumar Yadav"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ply4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ply3"
+        android:text="Jofra Archer"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/ply5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/ply4"
+        android:text="Jasprit Bumrah"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
