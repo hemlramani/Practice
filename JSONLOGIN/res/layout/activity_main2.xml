@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtmob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        />
+    <EditText
+        android:id="@+id/edtpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"/>
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"/>
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register?"
+        android:gravity="center"/>
+
+</LinearLayout>
